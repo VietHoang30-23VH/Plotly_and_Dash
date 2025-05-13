@@ -1,0 +1,26 @@
+1. Plotly: graphs, figures: layout, data, trace
+https://plotly.com/python/plotly-fundamentals/
+2. Dash: là một Python Framework, dùng để tạo ra các web dashboard có thể tương tác. Có thể kết hợp giữa Python, HTML và js.
+3. Set up environment
+cd folder
+python -m venv mydashenv
+.\mydashenv\Scripts\activate
+pip install numpy==2.0.0
+pip install pandas==2.2.2
+pip install plotly=5.22.0
+pip install dash==2.17.1
+pip install jupyterlab "ipywidgets>=7.5
+jupyter labextension install jupyterlab-plotly@4.8.2
+run: jupyter lab
+
+deploy locally:
+python <file_name>.py
+
+Mô tả các biểu đồ trong dashboard:
+- Network Flow charts: hiển thị gói tin bắt được trong argus, download file
+- Attack Types Distribution: bar charts - 5 columns
+- Security Alerts: figure-factory-table, download file/table and chart subplot
+
+Time	Source IP	Destination	Attack Type	Tool	Severity	Status
+
+- Define benign and malicious: ,download csv (4.4)
